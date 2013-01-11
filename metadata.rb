@@ -18,7 +18,7 @@ end
 
 depends 'ohai', '>= 1.1.4'
 
-%w{ runit bluepill yum }.each do |cb|
+%w{ runit bluepill yum apt }.each do |cb|
   recommends cb
 end
 
